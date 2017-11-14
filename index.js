@@ -21,3 +21,9 @@ class BoardMember {
       .homeState}, and I was trained in ${this.training}.`;
   }
 }
+
+class Ceo extends BoardMember {
+  hireEmployee(){
+    return "Welcome aboard"
+  }
+}
